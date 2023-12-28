@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugoplate</title>
+    <title>Yoda</title>
     <link>/</link>
-    <description>Recent content on Hugoplate</description>
+    <description>Recent content on Yoda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Dec 2023 21:01:11 +0530</lastBuildDate>
@@ -52,9 +52,9 @@
     </item>
     <item>
       <title>John Doe</title>
-      <link>/authors/john-doe/</link>
+      <link>/authors/shubhankar-nath/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/john-doe/</guid>
+      <guid>/authors/shubhankar-nath/</guid>
       <description>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     <item>
@@ -72,25 +72,11 @@
       <description></description>
     </item>
     <item>
-      <title>Sam Wilson</title>
-      <link>/authors/sam-wilson/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/sam-wilson/</guid>
-      <description>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
-    </item>
-    <item>
       <title>What Users Are Saying About Hugoplate</title>
       <link></link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid></guid>
       <description></description>
-    </item>
-    <item>
-      <title>William Jacob</title>
-      <link>/authors/william-jacob/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/william-jacob/</guid>
-      <description>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
   </channel>
 </rss>
