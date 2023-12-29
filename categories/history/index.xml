@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>History on Yoda</title>
+    <link>/categories/history/</link>
+    <description>Recent content in History on Yoda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Mar 2019 05:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/history/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>In the making of Gods</title>
+      <link>/blog/gods-making/</link>
+      <pubDate>Sun, 24 Mar 2019 05:00:00 +0000</pubDate>
+      <guid>/blog/gods-making/</guid>
+      <description>A ESOTERIC PEEK AT HISTORY OF RELIGION THAT SCULPTED THE HUMAN RACE IN TIME</description>
+    </item>
+  </channel>
+</rss>

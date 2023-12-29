@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>book on Yoda</title>
+    <link>/tags/book/</link>
+    <description>Recent content in book on Yoda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Jan 2020 05:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/book/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Five things I learnt from: 2019</title>
+      <link>/blog/2019/</link>
+      <pubDate>Fri, 03 Jan 2020 05:00:00 +0000</pubDate>
+      <guid>/blog/2019/</guid>
+      <description>I have written a couple of blogs on my site by now - I pick a book, try to comprehend it and share with you all of what I loved the most about it, business as usual.</description>
+    </item>
+    <item>
+      <title>Factfulness</title>
+      <link>/blog/factfulness/</link>
+      <pubDate>Sun, 17 Nov 2019 05:00:00 +0000</pubDate>
+      <guid>/blog/factfulness/</guid>
+      <description>Factfulness, by Hans Rosling
+So this year, I took a bold New Year Resolution: &amp;ldquo;50 Books a Year&amp;rdquo;.</description>
+    </item>
+  </channel>
+</rss>

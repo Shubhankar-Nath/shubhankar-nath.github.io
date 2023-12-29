@@ -6,42 +6,50 @@
     <description>Recent content on Yoda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Dec 2023 21:01:11 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2020 05:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Dumbpage</title>
-      <link>/blog/dumbpage/</link>
-      <pubDate>Wed, 27 Dec 2023 21:01:11 +0530</pubDate>
-      <guid>/blog/dumbpage/</guid>
-      <description></description>
+      <title>Five things I learnt from: 2019</title>
+      <link>/blog/2019/</link>
+      <pubDate>Fri, 03 Jan 2020 05:00:00 +0000</pubDate>
+      <guid>/blog/2019/</guid>
+      <description>I have written a couple of blogs on my site by now - I pick a book, try to comprehend it and share with you all of what I loved the most about it, business as usual.</description>
     </item>
     <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>/blog/post-1/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/blog/post-1/</guid>
-      <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
+      <title>Factfulness</title>
+      <link>/blog/factfulness/</link>
+      <pubDate>Sun, 17 Nov 2019 05:00:00 +0000</pubDate>
+      <guid>/blog/factfulness/</guid>
+      <description>Factfulness, by Hans Rosling
+So this year, I took a bold New Year Resolution: &amp;ldquo;50 Books a Year&amp;rdquo;.</description>
     </item>
     <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>/blog/post-2/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/blog/post-2/</guid>
-      <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
+      <title>Eudaimonia</title>
+      <link>/blog/eudaimonia/</link>
+      <pubDate>Sun, 19 May 2019 05:00:00 +0000</pubDate>
+      <guid>/blog/eudaimonia/</guid>
+      <description>Humans appeared on earth around 200,000 years ago but most human advancements are from the last 500 years.</description>
     </item>
     <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>/blog/post-3/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/blog/post-3/</guid>
-      <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
+      <title>Breaking XOR Cipher</title>
+      <link>/blog/xor-cipher/</link>
+      <pubDate>Mon, 25 Mar 2019 05:00:00 +0000</pubDate>
+      <guid>/blog/xor-cipher/</guid>
+      <description>XOR is one of the most interesting logical operation but it is definitive not made for encrypting.</description>
     </item>
     <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>/blog/post-4/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/blog/post-4/</guid>
-      <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
+      <title>In the making of Gods</title>
+      <link>/blog/gods-making/</link>
+      <pubDate>Sun, 24 Mar 2019 05:00:00 +0000</pubDate>
+      <guid>/blog/gods-making/</guid>
+      <description>A ESOTERIC PEEK AT HISTORY OF RELIGION THAT SCULPTED THE HUMAN RACE IN TIME</description>
+    </item>
+    <item>
+      <title>The Habit Of Meditation</title>
+      <link>/blog/meditation-habit/</link>
+      <pubDate>Sun, 24 Mar 2019 05:00:00 +0000</pubDate>
+      <guid>/blog/meditation-habit/</guid>
+      <description>I am not going to tell you about how to meditate or what are it’s benefits.</description>
     </item>
     <item>
       <title>Elements</title>
@@ -49,13 +57,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/elements/</guid>
       <description>Table of Contents Heading 2 Heading 3 Heading 4 Heading 5 Emphasis Button Link Paragraph Ordered List Unordered List Notice Tab Accordions Code and Syntax Highlighting Blockquote Tables Image Gallery Slider Youtube video Custom video Here is an example of headings.</description>
-    </item>
-    <item>
-      <title>John Doe</title>
-      <link>/authors/shubhankar-nath/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/shubhankar-nath/</guid>
-      <description>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     <item>
       <title>Privacy</title>
@@ -70,6 +71,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid></guid>
       <description></description>
+    </item>
+    <item>
+      <title>Shubhankar Nath</title>
+      <link>/authors/shubhankar-nath/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/shubhankar-nath/</guid>
+      <description>I am passionate about writing and a 🤍 to make the 🌏 a bette place.</description>
     </item>
     <item>
       <title>What Users Are Saying About Hugoplate</title>

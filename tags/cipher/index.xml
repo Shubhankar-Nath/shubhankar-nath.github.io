@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cipher on Yoda</title>
+    <link>/tags/cipher/</link>
+    <description>Recent content in cipher on Yoda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Mar 2019 05:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/cipher/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Breaking XOR Cipher</title>
+      <link>/blog/xor-cipher/</link>
+      <pubDate>Mon, 25 Mar 2019 05:00:00 +0000</pubDate>
+      <guid>/blog/xor-cipher/</guid>
+      <description>XOR is one of the most interesting logical operation but it is definitive not made for encrypting.</description>
+    </item>
+  </channel>
+</rss>

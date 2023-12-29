@@ -6,41 +6,97 @@
     <description>Recent content in Tags on Yoda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2020 05:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>nextjs</title>
-      <link>/tags/nextjs/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/tags/nextjs/</guid>
+      <title>book</title>
+      <link>/tags/book/</link>
+      <pubDate>Fri, 03 Jan 2020 05:00:00 +0000</pubDate>
+      <guid>/tags/book/</guid>
       <description></description>
     </item>
     <item>
-      <title>silicon</title>
-      <link>/tags/silicon/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/tags/silicon/</guid>
+      <title>personal</title>
+      <link>/tags/personal/</link>
+      <pubDate>Fri, 03 Jan 2020 05:00:00 +0000</pubDate>
+      <guid>/tags/personal/</guid>
       <description></description>
     </item>
     <item>
-      <title>software</title>
-      <link>/tags/software/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/tags/software/</guid>
+      <title>economics</title>
+      <link>/tags/economics/</link>
+      <pubDate>Sun, 17 Nov 2019 05:00:00 +0000</pubDate>
+      <guid>/tags/economics/</guid>
       <description></description>
     </item>
     <item>
-      <title>tailwind</title>
-      <link>/tags/tailwind/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/tags/tailwind/</guid>
+      <title>history</title>
+      <link>/tags/history/</link>
+      <pubDate>Sun, 17 Nov 2019 05:00:00 +0000</pubDate>
+      <guid>/tags/history/</guid>
       <description></description>
     </item>
     <item>
-      <title>technology</title>
-      <link>/tags/technology/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/tags/technology/</guid>
+      <title>statistics</title>
+      <link>/tags/statistics/</link>
+      <pubDate>Sun, 17 Nov 2019 05:00:00 +0000</pubDate>
+      <guid>/tags/statistics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>world</title>
+      <link>/tags/world/</link>
+      <pubDate>Sun, 17 Nov 2019 05:00:00 +0000</pubDate>
+      <guid>/tags/world/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>happiness</title>
+      <link>/tags/happiness/</link>
+      <pubDate>Sun, 19 May 2019 05:00:00 +0000</pubDate>
+      <guid>/tags/happiness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>cipher</title>
+      <link>/tags/cipher/</link>
+      <pubDate>Mon, 25 Mar 2019 05:00:00 +0000</pubDate>
+      <guid>/tags/cipher/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>buddha</title>
+      <link>/tags/buddha/</link>
+      <pubDate>Sun, 24 Mar 2019 05:00:00 +0000</pubDate>
+      <guid>/tags/buddha/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>gods</title>
+      <link>/tags/gods/</link>
+      <pubDate>Sun, 24 Mar 2019 05:00:00 +0000</pubDate>
+      <guid>/tags/gods/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>habit</title>
+      <link>/tags/habit/</link>
+      <pubDate>Sun, 24 Mar 2019 05:00:00 +0000</pubDate>
+      <guid>/tags/habit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>meditation</title>
+      <link>/tags/meditation/</link>
+      <pubDate>Sun, 24 Mar 2019 05:00:00 +0000</pubDate>
+      <guid>/tags/meditation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>religion</title>
+      <link>/tags/religion/</link>
+      <pubDate>Sun, 24 Mar 2019 05:00:00 +0000</pubDate>
+      <guid>/tags/religion/</guid>
       <description></description>
     </item>
   </channel>

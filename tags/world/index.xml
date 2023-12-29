@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>world on Yoda</title>
+    <link>/tags/world/</link>
+    <description>Recent content in world on Yoda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Nov 2019 05:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/world/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Factfulness</title>
+      <link>/blog/factfulness/</link>
+      <pubDate>Sun, 17 Nov 2019 05:00:00 +0000</pubDate>
+      <guid>/blog/factfulness/</guid>
+      <description>Factfulness, by Hans Rosling
+So this year, I took a bold New Year Resolution: &amp;ldquo;50 Books a Year&amp;rdquo;.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>history on Yoda</title>
+    <link>/tags/history/</link>
+    <description>Recent content in history on Yoda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Nov 2019 05:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/history/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Factfulness</title>
+      <link>/blog/factfulness/</link>
+      <pubDate>Sun, 17 Nov 2019 05:00:00 +0000</pubDate>
+      <guid>/blog/factfulness/</guid>
+      <description>Factfulness, by Hans Rosling
+So this year, I took a bold New Year Resolution: &amp;ldquo;50 Books a Year&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Eudaimonia</title>
+      <link>/blog/eudaimonia/</link>
+      <pubDate>Sun, 19 May 2019 05:00:00 +0000</pubDate>
+      <guid>/blog/eudaimonia/</guid>
+      <description>Humans appeared on earth around 200,000 years ago but most human advancements are from the last 500 years.</description>
+    </item>
+    <item>
+      <title>In the making of Gods</title>
+      <link>/blog/gods-making/</link>
+      <pubDate>Sun, 24 Mar 2019 05:00:00 +0000</pubDate>
+      <guid>/blog/gods-making/</guid>
+      <description>A ESOTERIC PEEK AT HISTORY OF RELIGION THAT SCULPTED THE HUMAN RACE IN TIME</description>
+    </item>
+  </channel>
+</rss>

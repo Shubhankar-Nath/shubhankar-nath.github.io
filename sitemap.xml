@@ -3,61 +3,100 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2023-12-27T21:01:11+05:30</lastmod>
+    <lastmod>2020-01-03T05:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog/</loc>
-    <lastmod>2023-12-27T21:01:11+05:30</lastmod>
+    <lastmod>2020-01-03T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/dumbpage/</loc>
-    <lastmod>2023-12-27T21:01:11+05:30</lastmod>
-  </url><url>
-    <loc>/categories/application/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/architecture/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>/tags/book/</loc>
+    <lastmod>2020-01-03T05:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <lastmod>2020-01-03T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/data/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>/blog/2019/</loc>
+    <lastmod>2020-01-03T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/post-1/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>/tags/personal/</loc>
+    <lastmod>2020-01-03T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/post-2/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/blog/post-3/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/blog/post-4/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/nextjs/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/silicon/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/software/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/software/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>/categories/personal/</loc>
+    <lastmod>2020-01-03T05:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <lastmod>2020-01-03T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/tailwind/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>/tags/economics/</loc>
+    <lastmod>2019-11-17T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/technology/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>/categories/economics/</loc>
+    <lastmod>2019-11-17T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/technology/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>/blog/factfulness/</loc>
+    <lastmod>2019-11-17T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/history/</loc>
+    <lastmod>2019-11-17T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/statistics/</loc>
+    <lastmod>2019-11-17T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/world/</loc>
+    <lastmod>2019-11-17T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/eudaimonia/</loc>
+    <lastmod>2019-05-19T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/happiness/</loc>
+    <lastmod>2019-05-19T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/happiness/</loc>
+    <lastmod>2019-05-19T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/thought/</loc>
+    <lastmod>2019-05-19T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/xor-cipher/</loc>
+    <lastmod>2019-03-25T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/cipher/</loc>
+    <lastmod>2019-03-25T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/tech/</loc>
+    <lastmod>2019-03-25T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/buddha/</loc>
+    <lastmod>2019-03-24T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/gods/</loc>
+    <lastmod>2019-03-24T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/habit/</loc>
+    <lastmod>2019-03-24T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/habit/</loc>
+    <lastmod>2019-03-24T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/history/</loc>
+    <lastmod>2019-03-24T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/gods-making/</loc>
+    <lastmod>2019-03-24T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/meditation/</loc>
+    <lastmod>2019-03-24T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/neurology/</loc>
+    <lastmod>2019-03-24T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/religion/</loc>
+    <lastmod>2019-03-24T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/religion/</loc>
+    <lastmod>2019-03-24T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/meditation-habit/</loc>
+    <lastmod>2019-03-24T05:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/</loc>
   </url><url>
@@ -67,12 +106,12 @@
   </url><url>
     <loc>/about/</loc>
   </url><url>
-    <loc>/authors/shubhankar-nath/</loc>
-  </url><url>
     <loc>/pages/</loc>
   </url><url>
     <loc>/privacy-policy/</loc>
   </url><url>
     <loc>/sections/</loc>
+  </url><url>
+    <loc>/authors/shubhankar-nath/</loc>
   </url>
 </urlset>

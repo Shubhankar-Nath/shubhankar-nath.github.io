@@ -6,41 +6,69 @@
     <description>Recent content in Categories on Yoda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2020 05:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Application</title>
-      <link>/categories/application/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/categories/application/</guid>
+      <title>Personal</title>
+      <link>/categories/personal/</link>
+      <pubDate>Fri, 03 Jan 2020 05:00:00 +0000</pubDate>
+      <guid>/categories/personal/</guid>
       <description></description>
     </item>
     <item>
-      <title>Architecture</title>
-      <link>/categories/architecture/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/categories/architecture/</guid>
+      <title>Economics</title>
+      <link>/categories/economics/</link>
+      <pubDate>Sun, 17 Nov 2019 05:00:00 +0000</pubDate>
+      <guid>/categories/economics/</guid>
       <description></description>
     </item>
     <item>
-      <title>Data</title>
-      <link>/categories/data/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/categories/data/</guid>
+      <title>Happiness</title>
+      <link>/categories/happiness/</link>
+      <pubDate>Sun, 19 May 2019 05:00:00 +0000</pubDate>
+      <guid>/categories/happiness/</guid>
       <description></description>
     </item>
     <item>
-      <title>Software</title>
-      <link>/categories/software/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/categories/software/</guid>
+      <title>Thought</title>
+      <link>/categories/thought/</link>
+      <pubDate>Sun, 19 May 2019 05:00:00 +0000</pubDate>
+      <guid>/categories/thought/</guid>
       <description></description>
     </item>
     <item>
-      <title>Technology</title>
-      <link>/categories/technology/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/categories/technology/</guid>
+      <title>Tech</title>
+      <link>/categories/tech/</link>
+      <pubDate>Mon, 25 Mar 2019 05:00:00 +0000</pubDate>
+      <guid>/categories/tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Habit</title>
+      <link>/categories/habit/</link>
+      <pubDate>Sun, 24 Mar 2019 05:00:00 +0000</pubDate>
+      <guid>/categories/habit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>History</title>
+      <link>/categories/history/</link>
+      <pubDate>Sun, 24 Mar 2019 05:00:00 +0000</pubDate>
+      <guid>/categories/history/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neurology</title>
+      <link>/categories/neurology/</link>
+      <pubDate>Sun, 24 Mar 2019 05:00:00 +0000</pubDate>
+      <guid>/categories/neurology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Religion</title>
+      <link>/categories/religion/</link>
+      <pubDate>Sun, 24 Mar 2019 05:00:00 +0000</pubDate>
+      <guid>/categories/religion/</guid>
       <description></description>
     </item>
   </channel>

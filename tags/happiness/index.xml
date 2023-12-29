@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>happiness on Yoda</title>
+    <link>/tags/happiness/</link>
+    <description>Recent content in happiness on Yoda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 May 2019 05:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/happiness/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eudaimonia</title>
+      <link>/blog/eudaimonia/</link>
+      <pubDate>Sun, 19 May 2019 05:00:00 +0000</pubDate>
+      <guid>/blog/eudaimonia/</guid>
+      <description>Humans appeared on earth around 200,000 years ago but most human advancements are from the last 500 years.</description>
+    </item>
+  </channel>
+</rss>
