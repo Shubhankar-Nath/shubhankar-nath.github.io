@@ -6,8 +6,15 @@
     <description>Recent content on Yoda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jan 2020 05:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Dec 2023 18:01:04 +0530</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comment Policy</title>
+      <link>/comment-policy/</link>
+      <pubDate>Fri, 29 Dec 2023 18:01:04 +0530</pubDate>
+      <guid>/comment-policy/</guid>
+      <description>Be Respectful: All comments should be respectful and considerate of other members of our online community.</description>
+    </item>
     <item>
       <title>Five things I learnt from: 2019</title>
       <link>/blog/2019/</link>
@@ -63,7 +70,7 @@ So this year, I took a bold New Year Resolution: &amp;ldquo;50 Books a Year&amp;
       <link>/privacy-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/privacy-policy/</guid>
-      <description>Responsibility of Contributors Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+      <description>Privacy Policy Personal Information Collection We collect personal information when you voluntarily provide it through our website, e.</description>
     </item>
     <item>
       <title>Ready to build your next project with Hugo?</title>
@@ -80,7 +87,7 @@ So this year, I took a bold New Year Resolution: &amp;ldquo;50 Books a Year&amp;
       <description>I am passionate about writing and a 🤍 to make the 🌏 a bette place.</description>
     </item>
     <item>
-      <title>What Users Are Saying About Hugoplate</title>
+      <title>Some of my favourite quotes</title>
       <link></link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid></guid>

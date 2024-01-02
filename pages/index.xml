@@ -6,7 +6,15 @@
     <description>Recent content in Pages on Yoda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 29 Dec 2023 18:01:04 +0530</lastBuildDate>
     <atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comment Policy</title>
+      <link>/comment-policy/</link>
+      <pubDate>Fri, 29 Dec 2023 18:01:04 +0530</pubDate>
+      <guid>/comment-policy/</guid>
+      <description>Be Respectful: All comments should be respectful and considerate of other members of our online community.</description>
+    </item>
     <item>
       <title>Elements</title>
       <link>/elements/</link>
@@ -19,7 +27,7 @@
       <link>/privacy-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/privacy-policy/</guid>
-      <description>Responsibility of Contributors Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+      <description>Privacy Policy Personal Information Collection We collect personal information when you voluntarily provide it through our website, e.</description>
     </item>
   </channel>
 </rss>

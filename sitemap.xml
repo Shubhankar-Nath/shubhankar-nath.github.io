@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2020-01-03T05:00:00+00:00</lastmod>
+    <lastmod>2023-12-29T18:01:04+05:30</lastmod>
+  </url><url>
+    <loc>/comment-policy/</loc>
+    <lastmod>2023-12-29T18:01:04+05:30</lastmod>
+  </url><url>
+    <loc>/pages/</loc>
+    <lastmod>2023-12-29T18:01:04+05:30</lastmod>
   </url><url>
     <loc>/blog/</loc>
     <lastmod>2020-01-03T05:00:00+00:00</lastmod>
@@ -105,8 +111,6 @@
     <loc>/elements/</loc>
   </url><url>
     <loc>/about/</loc>
-  </url><url>
-    <loc>/pages/</loc>
   </url><url>
     <loc>/privacy-policy/</loc>
   </url><url>
