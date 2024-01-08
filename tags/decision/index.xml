@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>decision on Yoda</title>
+    <link>/tags/decision/</link>
+    <description>Recent content in decision on Yoda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Nov 2020 05:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/decision/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dichotomy</title>
+      <link>/blog/dichotomy/</link>
+      <pubDate>Sun, 08 Nov 2020 05:00:00 +0000</pubDate>
+      <guid>/blog/dichotomy/</guid>
+      <description>I drew it on a moonless night but the lines came to me on a sunny afternoon.</description>
+    </item>
+  </channel>
+</rss>

@@ -6,8 +6,15 @@
     <description>Recent content in world on Yoda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Nov 2019 05:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2020 05:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/world/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Biggest Story</title>
+      <link>/blog/biggest-story/</link>
+      <pubDate>Sun, 06 Sep 2020 05:00:00 +0000</pubDate>
+      <guid>/blog/biggest-story/</guid>
+      <description>Entropy and Life Entropy is the measure of disorderliness, in oddly simple terms.</description>
+    </item>
     <item>
       <title>Factfulness</title>
       <link>/blog/factfulness/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Tech on Yoda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Mar 2019 05:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2020 05:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I made a Chat Bot ?</title>
+      <link>/blog/chatbot/</link>
+      <pubDate>Sun, 17 May 2020 05:00:00 +0000</pubDate>
+      <guid>/blog/chatbot/</guid>
+      <description>There are a lot of platforms to develop a Chatbot in the market today, some where you do not even need to write a single line of code.</description>
+    </item>
     <item>
       <title>Breaking XOR Cipher</title>
       <link>/blog/xor-cipher/</link>

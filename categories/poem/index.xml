@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Poem on Yoda</title>
+    <link>/categories/poem/</link>
+    <description>Recent content in Poem on Yoda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Nov 2020 05:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/poem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Strains of thought</title>
+      <link>/blog/strain-thought/</link>
+      <pubDate>Fri, 20 Nov 2020 05:00:00 +0000</pubDate>
+      <guid>/blog/strain-thought/</guid>
+      <description>Little Sparks on your mind
+Bright, timid and of different kind,</description>
+    </item>
+    <item>
+      <title>Dichotomy</title>
+      <link>/blog/dichotomy/</link>
+      <pubDate>Sun, 08 Nov 2020 05:00:00 +0000</pubDate>
+      <guid>/blog/dichotomy/</guid>
+      <description>I drew it on a moonless night but the lines came to me on a sunny afternoon.</description>
+    </item>
+  </channel>
+</rss>

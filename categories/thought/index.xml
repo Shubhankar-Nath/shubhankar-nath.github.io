@@ -6,8 +6,15 @@
     <description>Recent content in Thought on Yoda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 May 2019 05:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2020 05:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/thought/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Biggest Story</title>
+      <link>/blog/biggest-story/</link>
+      <pubDate>Sun, 06 Sep 2020 05:00:00 +0000</pubDate>
+      <guid>/blog/biggest-story/</guid>
+      <description>Entropy and Life Entropy is the measure of disorderliness, in oddly simple terms.</description>
+    </item>
     <item>
       <title>Eudaimonia</title>
       <link>/blog/eudaimonia/</link>
