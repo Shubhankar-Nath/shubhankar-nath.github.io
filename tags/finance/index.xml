@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>finance on Yoda</title>
+    <link>/tags/finance/</link>
+    <description>Recent content in finance on Yoda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Apr 2021 05:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/finance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Five things I learnt from: Getting serious about money!</title>
+      <link>/blog/perosnal-money-managment/</link>
+      <pubDate>Fri, 09 Apr 2021 05:00:00 +0000</pubDate>
+      <guid>/blog/perosnal-money-managment/</guid>
+      <description>Seriously, am I qualified to sermon you on money? Have I made much wealth for myself?</description>
+    </item>
+  </channel>
+</rss>

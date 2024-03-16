@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>literature on Yoda</title>
+    <link>/tags/literature/</link>
+    <description>Recent content in literature on Yoda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Apr 2021 05:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/literature/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One thing I learnt from : Comic Villains</title>
+      <link>/blog/comic-villians/</link>
+      <pubDate>Wed, 14 Apr 2021 05:00:00 +0000</pubDate>
+      <guid>/blog/comic-villians/</guid>
+      <description>Works of literature are distilled form of human perception patterns. In a way, they are more real than non-fiction.</description>
+    </item>
+  </channel>
+</rss>
