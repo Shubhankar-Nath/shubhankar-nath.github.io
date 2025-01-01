@@ -6,8 +6,15 @@
     <description>Recent content in Tags on Yoda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Jan 2022 05:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Dec 2022 05:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>thought</title>
+      <link>/tags/thought/</link>
+      <pubDate>Thu, 29 Dec 2022 05:00:00 +0000</pubDate>
+      <guid>/tags/thought/</guid>
+      <description></description>
+    </item>
     <item>
       <title>fivethings</title>
       <link>/tags/fivethings/</link>
@@ -20,13 +27,6 @@
       <link>/tags/personal/</link>
       <pubDate>Sun, 02 Jan 2022 05:00:00 +0000</pubDate>
       <guid>/tags/personal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>thought</title>
-      <link>/tags/thought/</link>
-      <pubDate>Wed, 29 Dec 2021 05:00:00 +0000</pubDate>
-      <guid>/tags/thought/</guid>
       <description></description>
     </item>
     <item>
