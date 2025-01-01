@@ -6,8 +6,15 @@
     <description>Recent content in Personal on Yoda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2021 05:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jan 2022 05:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Five things I learnt from: 2021</title>
+      <link>/blog/2021/</link>
+      <pubDate>Sun, 02 Jan 2022 05:00:00 +0000</pubDate>
+      <guid>/blog/2021/</guid>
+      <description>So I am keeping up with my ritual - annually I feebly attempt to pen (or key?</description>
+    </item>
     <item>
       <title>Five things I learnt from: 2020</title>
       <link>/blog/2020/</link>

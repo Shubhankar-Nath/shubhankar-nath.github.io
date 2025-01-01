@@ -6,8 +6,15 @@
     <description>Recent content in thought on Yoda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Nov 2020 05:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Dec 2021 05:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/thought/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lessons from: Building Software</title>
+      <link>/blog/software/</link>
+      <pubDate>Wed, 29 Dec 2021 05:00:00 +0000</pubDate>
+      <guid>/blog/software/</guid>
+      <description>I have been dabbling with code for the past 10 years, at least.</description>
+    </item>
     <item>
       <title>Strains of thought</title>
       <link>/blog/strain-thought/</link>

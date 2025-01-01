@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Yoda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Jun 2021 05:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jan 2022 05:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fivethings</title>
+      <link>/tags/fivethings/</link>
+      <pubDate>Sun, 02 Jan 2022 05:00:00 +0000</pubDate>
+      <guid>/tags/fivethings/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>personal</title>
+      <link>/tags/personal/</link>
+      <pubDate>Sun, 02 Jan 2022 05:00:00 +0000</pubDate>
+      <guid>/tags/personal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>thought</title>
+      <link>/tags/thought/</link>
+      <pubDate>Wed, 29 Dec 2021 05:00:00 +0000</pubDate>
+      <guid>/tags/thought/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>book</title>
+      <link>/tags/book/</link>
+      <pubDate>Sat, 28 Aug 2021 05:00:00 +0000</pubDate>
+      <guid>/tags/book/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>world</title>
+      <link>/tags/world/</link>
+      <pubDate>Sat, 28 Aug 2021 05:00:00 +0000</pubDate>
+      <guid>/tags/world/</guid>
+      <description></description>
+    </item>
     <item>
       <title>evolution</title>
       <link>/tags/evolution/</link>
@@ -37,24 +72,10 @@
       <description></description>
     </item>
     <item>
-      <title>world</title>
-      <link>/tags/world/</link>
-      <pubDate>Sun, 13 Jun 2021 05:00:00 +0000</pubDate>
-      <guid>/tags/world/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>finance</title>
       <link>/tags/finance/</link>
       <pubDate>Sat, 29 May 2021 05:00:00 +0000</pubDate>
       <guid>/tags/finance/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>personal</title>
-      <link>/tags/personal/</link>
-      <pubDate>Sat, 29 May 2021 05:00:00 +0000</pubDate>
-      <guid>/tags/personal/</guid>
       <description></description>
     </item>
     <item>
@@ -65,24 +86,10 @@
       <description></description>
     </item>
     <item>
-      <title>book</title>
-      <link>/tags/book/</link>
-      <pubDate>Fri, 01 Jan 2021 05:00:00 +0000</pubDate>
-      <guid>/tags/book/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>life</title>
       <link>/tags/life/</link>
       <pubDate>Fri, 20 Nov 2020 05:00:00 +0000</pubDate>
       <guid>/tags/life/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>thought</title>
-      <link>/tags/thought/</link>
-      <pubDate>Fri, 20 Nov 2020 05:00:00 +0000</pubDate>
-      <guid>/tags/thought/</guid>
       <description></description>
     </item>
     <item>

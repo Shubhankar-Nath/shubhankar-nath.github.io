@@ -6,8 +6,15 @@
     <description>Recent content in Tech on Yoda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 May 2020 05:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Dec 2021 05:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lessons from: Building Software</title>
+      <link>/blog/software/</link>
+      <pubDate>Wed, 29 Dec 2021 05:00:00 +0000</pubDate>
+      <guid>/blog/software/</guid>
+      <description>I have been dabbling with code for the past 10 years, at least.</description>
+    </item>
     <item>
       <title>How I made a Chat Bot ?</title>
       <link>/blog/chatbot/</link>
