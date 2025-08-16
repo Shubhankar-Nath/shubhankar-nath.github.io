@@ -173,9 +173,7 @@
     
     <meta
       property="og:image:type"
-      content="image/
-        .png
-      " />
+      content="image/.png" />
   
 
 
@@ -195,6 +193,8 @@
 <meta name="twitter:description" content="This is meta description" />
 
 
+
+  <meta name="twitter:creator" content="@Shubhankar Nath" />
 
 
 
@@ -230,8 +230,8 @@ if (!doNotTrack) {
 <script>
   let indexURL = "/searchindex.json";
   let includeSectionsInSearch = ["blog"];
-  let no_results_for = "No results for";
-  let empty_search_results_placeholder = "Type something to search..";
+  let search_no_results = "0 results for";
+  let search_initial_message = "";
 </script>
 
 
@@ -335,8 +335,8 @@ if (!doNotTrack) {
 
 
 <link
-  href="/css/style.min.671ab3cc8da31da6aa32f93e8c120613055c1052831450227498759d523954b3.css"
-  integrity="sha256-ZxqzzI2jHaaqMvk+jBIGEwVcEFKDFFAidJh1nVI5VLM="
+  href="/css/style.min.73d7a5b8d50bc2d40071a7108870d0649aff7e660bd861b027dddee3fd36fee5.css"
+  integrity="sha256-c9eluNULwtQAcacQiHDQZJr/fmYL2GGwJ93e4/02/uU="
   rel="stylesheet" />
 
 
@@ -344,8 +344,8 @@ if (!doNotTrack) {
   defer
   async
   rel="stylesheet"
-  href="/css/style-lazy.min.2e1a495a176a10bfd798f3ea963c4d191d66690d2570b19ec209ec3504d8cf11.css"
-  integrity="sha256-LhpJWhdqEL/XmPPqljxNGR1maQ0lcLGewgnsNQTYzxE="
+  href="/css/style-lazy.min.d76c0617489b762c407e7f4782401be4e511e8a21f73d2ecfefb3cf575ecf1c6.css"
+  integrity="sha256-12wGF0ibdixAfn9HgkAb5OUR6KIfc9Ls/vs89XXs8cY="
   media="print"
   onload="this.media='all'; this.onload=null;" />
 
@@ -723,7 +723,7 @@ if (!doNotTrack) {
         <div class="search-wrapper-body">
           <div class="search-result" data-search-result></div>
           <span class="search-result-empty">
-            Type something to search..
+            
           </span>
         </div>
         <div class="search-wrapper-footer">
@@ -887,39 +887,19 @@ if (!doNotTrack) {
 
 
 
+ 
   
-
   
-
+ 
   
-
-
-
   
-
+ 
   
-
   
+ 
 
 
-
-  
-
-  
-
-  
-
-
-
-  
-
-  
-
-  
-
-
-
-<a href="/" class="btn btn-primary " >Button</a>
+<a href="/" class="btn btn-primary "  rel="" >Button</a>
 
 <hr>
 <h3 id="link">Link</h3>
@@ -932,8 +912,7 @@ if (!doNotTrack) {
  
 
 
->I&rsquo;m an inline-style link</a>
-</p>
+>I&rsquo;m an inline-style link</a></p>
 <p><a href="https://www.google.com"
 
 
@@ -945,8 +924,7 @@ if (!doNotTrack) {
  
 
 
->I&rsquo;m an inline-style link with title</a>
-</p>
+>I&rsquo;m an inline-style link with title</a></p>
 <p><a href="https://www.themefisher.com"
 
 
@@ -956,8 +934,7 @@ if (!doNotTrack) {
  
 
 
->I&rsquo;m a reference-style link</a>
-</p>
+>I&rsquo;m a reference-style link</a></p>
 <p><a href="../blob/master/LICENSE"
 
 
@@ -965,8 +942,7 @@ if (!doNotTrack) {
  
 
 
->I&rsquo;m a relative reference to a repository file</a>
-</p>
+>I&rsquo;m a relative reference to a repository file</a></p>
 <p><a href="https://gethugothemes.com"
 
 
@@ -976,8 +952,7 @@ if (!doNotTrack) {
  
 
 
->You can use numbers for reference-style link definitions</a>
-</p>
+>You can use numbers for reference-style link definitions</a></p>
 <p>Or leave it empty and use the <a href="https://www.getjekyllthemes.com"
 
 
@@ -987,8 +962,7 @@ if (!doNotTrack) {
  
 
 
->link text itself</a>
-.</p>
+>link text itself</a>.</p>
 <p>URLs and URLs in angle brackets will automatically get turned into links.
 <a href="http://www.example.com"
 
@@ -999,8 +973,7 @@ if (!doNotTrack) {
  
 
 
->http://www.example.com</a>
- or <a href="http://www.example.com"
+>http://www.example.com</a> or <a href="http://www.example.com"
 
 
 
@@ -1009,8 +982,7 @@ if (!doNotTrack) {
  
 
 
->http://www.example.com</a>
- and sometimes
+>http://www.example.com</a> and sometimes
 example.com (but not on Github, for example).</p>
 <p>Some text to show that the reference links can follow later.</p>
 <hr>
@@ -1039,28 +1011,23 @@ example.com (but not on Github, for example).</p>
 
 
 
+
+  
   
 
 
 
+
+
+  
+
+
 <div class="notice note">
-  <div class="notice-head">
-    
-      <svg
-        width="20"
-        height="20"
-        viewBox="0 0 20 20"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          d="M10 9V14M10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 14.9706 14.9706 19 10 19ZM10.0498 6V6.1L9.9502 6.1002V6H10.0498Z"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"></path>
+  <div class="notice-head"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="22" height="22" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125" />
       </svg>
+      <p>Note</p>
     
-    <p>Note</p>
   </div>
   <div class="notice-body"><p>This is a simple note.</p></div>
 </div>
@@ -1068,27 +1035,24 @@ example.com (but not on Github, for example).</p>
 
 
 
+
+  
   
 
 
 
+
+
+  
+
+
 <div class="notice tip">
-  <div class="notice-head">
-    
-      <svg
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM12 2.4C6.69807 2.4 2.4 6.69807 2.4 12C2.4 17.3019 6.69807 21.6 12 21.6C17.3019 21.6 21.6 17.3019 21.6 12C21.6 6.69807 17.3019 2.4 12 2.4ZM15.9515 7.55147L9.6 13.9029L8.04853 12.3515C7.5799 11.8828 6.8201 11.8828 6.35147 12.3515C5.88284 12.8201 5.88284 13.5799 6.35147 14.0485L8.75147 16.4485C9.2201 16.9172 9.9799 16.9172 10.4485 16.4485L17.6485 9.24853C18.1172 8.7799 18.1172 8.0201 17.6485 7.55147C17.1799 7.08284 16.4201 7.08284 15.9515 7.55147Z"
-          fill="currentColor" />
+  <div class="notice-head"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="22" height="22">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
       </svg>
+      <p>Tip</p>
     
-    <p>Tip</p>
   </div>
   <div class="notice-body"><p>This is a simple tip.</p></div>
 </div>
@@ -1096,28 +1060,23 @@ example.com (but not on Github, for example).</p>
 
 
 
+
+  
   
 
 
 
+
+
+  
+
+
 <div class="notice info">
-  <div class="notice-head">
-    
-      <svg
-        width="20"
-        height="20"
-        viewBox="0 0 18 20"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          d="M9.16109 0.993016C9.97971 1.03952 10.6611 1.42989 11.0721 2.22339L17.7981 15.8014C18.4502 17.1739 17.4403 19.0208 15.7832 19.0474H2.23859C0.730337 19.0234 -0.507163 17.3108 0.231587 15.7864L7.08321 2.20877C7.21146 1.96502 7.26996 1.89452 7.38059 1.76664C7.82534 1.25102 8.31171 0.975016 9.16109 0.993016ZM9.05046 2.49189C8.79284 2.50464 8.55696 2.64902 8.42834 2.87327C6.06134 7.36539 3.77946 11.9036 1.56546 16.4734C1.36071 16.9328 1.71209 17.5223 2.22621 17.547C6.74871 17.6201 11.2731 17.6201 15.7956 17.547C16.2925 17.523 16.666 16.953 16.459 16.4783C14.2866 11.9093 12.0471 7.37102 9.72171 2.87814C9.58446 2.63402 9.38309 2.48739 9.05046 2.49189Z"
-          fill="currentColor" />
-        <path
-          d="M9.61323 13.2153H8.35773L8.21973 7.04688H9.75723L9.61323 13.2153ZM8.17773 15.1015C8.17773 14.8731 8.25161 14.6841 8.39973 14.5338C8.54823 14.3838 8.75036 14.3084 9.00648 14.3084C9.26298 14.3084 9.46511 14.3838 9.61323 14.5338C9.76136 14.6841 9.83561 14.8731 9.83561 15.1015C9.83561 15.3216 9.76323 15.5057 9.61923 15.6539C9.47486 15.802 9.27086 15.8762 9.00648 15.8762C8.74211 15.8762 8.53811 15.802 8.39373 15.6539C8.24973 15.5057 8.17773 15.3216 8.17773 15.1015Z"
-          fill="currentColor" />
+  <div class="notice-head"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="22" height="22">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
       </svg>
+      <p>Info</p>
     
-    <p>Info</p>
   </div>
   <div class="notice-body"><p>This is a simple info.</p></div>
 </div>
@@ -1125,27 +1084,23 @@ example.com (but not on Github, for example).</p>
 
 
 
+
+  
   
 
 
 
+
+
+  
+
+
 <div class="notice warning">
-  <div class="notice-head">
-    
-      <svg
-        width="20"
-        height="20"
-        viewBox="0 0 20 20"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M10 0C15.522 0 20 4.478 20 10C20 15.522 15.522 20 10 20C4.478 20 0 15.522 0 10C0 4.478 4.478 0 10 0ZM10 2C5.589 2 2 5.589 2 10C2 14.411 5.589 18 10 18C14.411 18 18 14.411 18 10C18 5.589 14.411 2 10 2ZM12.293 6.293L13.707 7.707L11.414 10L13.707 12.293L12.293 13.707L10 11.414L7.707 13.707L6.293 12.293L8.586 10L6.293 7.707L7.707 6.293L10 8.586L12.293 6.293Z"
-          fill="currentColor" />
+  <div class="notice-head"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="22" height="22">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z" />
       </svg>
+      <p>Warning</p>
     
-    <p>Warning</p>
   </div>
   <div class="notice-body"><p>This is a simple warning.</p></div>
 </div>
@@ -1155,7 +1110,7 @@ example.com (but not on Github, for example).</p>
 
 
 
-<div class="tab" data-tab-group="default">
+<div class="tab" data-tab-group="">
   <ul class="tab-nav" data-tab-nav>
     
       <li
@@ -1183,7 +1138,8 @@ example.com (but not on Github, for example).</p>
         class="tab-content-panel active"
         data-tab-panel="tab-1">
         <h4 id="did-you-come-here-for-something-in-particular">Did you come here for something in particular?</h4>
-<p>Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on Lieutenant Worf.
+<p>Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on Lieutenant Worf.</p>
+
       </div>
     
       <div
@@ -1529,7 +1485,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -1553,9 +1513,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -1565,10 +1527,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/01_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/01_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/01.jpg"
+                alt="01.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/01_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -1610,7 +1572,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -1634,9 +1600,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -1646,10 +1614,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/02_hu9f5ce1c569e2ab213865609500b54bff_713428_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/02_hu9f5ce1c569e2ab213865609500b54bff_713428_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/02.jpg"
+                alt="02.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/02_hu9f5ce1c569e2ab213865609500b54bff_713428_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -1691,7 +1659,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -1715,9 +1687,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -1727,10 +1701,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/03_huf5c9dfe5645852846ce99ad77e61d20e_259550_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/03_huf5c9dfe5645852846ce99ad77e61d20e_259550_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/03.jpg"
+                alt="03.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/03_huf5c9dfe5645852846ce99ad77e61d20e_259550_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -1772,7 +1746,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -1796,9 +1774,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -1808,10 +1788,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/04_hua47f595a8863664e9d354ca6db7dfd57_59892_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/04_hua47f595a8863664e9d354ca6db7dfd57_59892_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/04.jpg"
+                alt="04.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/04_hua47f595a8863664e9d354ca6db7dfd57_59892_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -1853,7 +1833,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -1877,9 +1861,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -1889,10 +1875,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/05_hue3c47dbec81aa52cd05166231080af9a_215325_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/05_hue3c47dbec81aa52cd05166231080af9a_215325_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/05.jpg"
+                alt="05.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/05_hue3c47dbec81aa52cd05166231080af9a_215325_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -1934,7 +1920,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -1958,9 +1948,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -1970,10 +1962,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/06_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/06_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/06.jpg"
+                alt="06.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/06_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -2015,7 +2007,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -2039,9 +2035,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -2051,10 +2049,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/2019-primary_hu0f6c93fe07b0f7aaba15b9506206bb77_1096213_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/2019-primary_hu0f6c93fe07b0f7aaba15b9506206bb77_1096213_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/2019-primary.png"
+                alt="2019-primary.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/2019-primary_hu0f6c93fe07b0f7aaba15b9506206bb77_1096213_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -2096,7 +2094,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -2120,9 +2122,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -2132,10 +2136,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/20191_hu002015509768674ed415582b529898f1_238252_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/20191_hu002015509768674ed415582b529898f1_238252_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/20191.jpg"
+                alt="20191.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/20191_hu002015509768674ed415582b529898f1_238252_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -2177,7 +2181,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -2201,9 +2209,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -2213,10 +2223,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/20192_huecb00ecc86d0ea32b5204cb24bb7abc7_530637_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/20192_huecb00ecc86d0ea32b5204cb24bb7abc7_530637_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/20192.jpg"
+                alt="20192.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/20192_huecb00ecc86d0ea32b5204cb24bb7abc7_530637_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -2258,7 +2268,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -2282,9 +2296,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -2294,10 +2310,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Bot1_huce13c442b7324e24fd7e24499a54b87e_40622_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/Bot1_huce13c442b7324e24fd7e24499a54b87e_40622_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Bot1.png"
+                alt="Bot1.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Bot1_huce13c442b7324e24fd7e24499a54b87e_40622_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -2339,7 +2355,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -2363,9 +2383,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -2375,10 +2397,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Bot2_hua39f0349bf5b3cb34c786f2b514c7a22_22521_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/Bot2_hua39f0349bf5b3cb34c786f2b514c7a22_22521_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Bot2.png"
+                alt="Bot2.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Bot2_hua39f0349bf5b3cb34c786f2b514c7a22_22521_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -2420,7 +2442,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -2444,9 +2470,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -2456,10 +2484,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover1_hu3aafc5bfe228a42a52d09b36b3ce1969_915967_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover1_hu3aafc5bfe228a42a52d09b36b3ce1969_915967_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover1.jpg"
+                alt="Cover1.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover1_hu3aafc5bfe228a42a52d09b36b3ce1969_915967_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -2501,7 +2529,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -2525,9 +2557,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -2537,10 +2571,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover10_hu5243062a3ef961ec6f93861103a39ac0_672750_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover10_hu5243062a3ef961ec6f93861103a39ac0_672750_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover10.jpg"
+                alt="Cover10.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover10_hu5243062a3ef961ec6f93861103a39ac0_672750_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -2582,7 +2616,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -2606,9 +2644,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -2618,10 +2658,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover11_hu482525b22de2f916eedc0632db15829a_223987_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover11_hu482525b22de2f916eedc0632db15829a_223987_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover11.jpg"
+                alt="Cover11.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover11_hu482525b22de2f916eedc0632db15829a_223987_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -2663,7 +2703,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -2687,9 +2731,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -2699,10 +2745,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover12_hud737103c0c1cb782918495e38d13c4c6_1203159_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover12_hud737103c0c1cb782918495e38d13c4c6_1203159_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover12.jpg"
+                alt="Cover12.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover12_hud737103c0c1cb782918495e38d13c4c6_1203159_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -2744,7 +2790,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -2768,9 +2818,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -2780,10 +2832,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover13_hu98b72c9cd998b3943d4fbeb8818b1712_962449_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover13_hu98b72c9cd998b3943d4fbeb8818b1712_962449_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover13.jpg"
+                alt="Cover13.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover13_hu98b72c9cd998b3943d4fbeb8818b1712_962449_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -2825,7 +2877,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -2849,9 +2905,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -2861,10 +2919,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover14_hu19bd690dac4e894e240deee130dcd254_1089145_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover14_hu19bd690dac4e894e240deee130dcd254_1089145_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover14.jpg"
+                alt="Cover14.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover14_hu19bd690dac4e894e240deee130dcd254_1089145_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -2906,7 +2964,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -2930,9 +2992,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -2942,10 +3006,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover15_hu22f9d168ca30399dc6fa5424424d421c_967416_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover15_hu22f9d168ca30399dc6fa5424424d421c_967416_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover15.jpg"
+                alt="Cover15.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover15_hu22f9d168ca30399dc6fa5424424d421c_967416_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -2987,7 +3051,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -3011,9 +3079,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -3023,10 +3093,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover16_hu72edf17260b000cd806e1117c6376536_800433_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover16_hu72edf17260b000cd806e1117c6376536_800433_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover16.jpg"
+                alt="Cover16.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover16_hu72edf17260b000cd806e1117c6376536_800433_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -3068,7 +3138,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -3092,9 +3166,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -3104,10 +3180,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover17_hu5094ca21fb6eb25ef623588c767e8f58_674723_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover17_hu5094ca21fb6eb25ef623588c767e8f58_674723_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover17.jpg"
+                alt="Cover17.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover17_hu5094ca21fb6eb25ef623588c767e8f58_674723_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -3149,7 +3225,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -3173,9 +3253,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -3185,10 +3267,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover18_hu1392dd9f52c331d8d90a8b4dbc78659d_1060342_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover18_hu1392dd9f52c331d8d90a8b4dbc78659d_1060342_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover18.jpg"
+                alt="Cover18.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover18_hu1392dd9f52c331d8d90a8b4dbc78659d_1060342_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -3230,7 +3312,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -3254,9 +3340,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -3266,10 +3354,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover19_hu667d820bd462239cb7bc754fb9251b9b_938641_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover19_hu667d820bd462239cb7bc754fb9251b9b_938641_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover19.jpg"
+                alt="Cover19.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover19_hu667d820bd462239cb7bc754fb9251b9b_938641_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -3311,7 +3399,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -3335,9 +3427,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -3347,10 +3441,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover2_hu31c97f68f7fb35ae8a6b21332e96ecee_1098095_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover2_hu31c97f68f7fb35ae8a6b21332e96ecee_1098095_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover2.jpg"
+                alt="Cover2.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover2_hu31c97f68f7fb35ae8a6b21332e96ecee_1098095_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -3392,7 +3486,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -3416,9 +3514,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -3428,10 +3528,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover20_hua50fc94d70d2fa23c682383323db7584_700736_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover20_hua50fc94d70d2fa23c682383323db7584_700736_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover20.jpg"
+                alt="Cover20.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover20_hua50fc94d70d2fa23c682383323db7584_700736_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -3473,7 +3573,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -3497,9 +3601,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -3509,10 +3615,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover21_hu42f0e6f90e5deb17c991dd76d8437555_122965_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover21_hu42f0e6f90e5deb17c991dd76d8437555_122965_400x400_fit_q90_lanczos.jpeg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover21.jpeg"
+                alt="Cover21.jpeg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover21_hu42f0e6f90e5deb17c991dd76d8437555_122965_400x400_fit_q90_lanczos.jpeg'" />
             </a>
           
@@ -3554,7 +3660,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -3578,9 +3688,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -3590,10 +3702,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover21_hu519a9b205738d164c7dd9354d3553035_598015_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover21_hu519a9b205738d164c7dd9354d3553035_598015_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover21.jpg"
+                alt="Cover21.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover21_hu519a9b205738d164c7dd9354d3553035_598015_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -3635,7 +3747,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -3659,9 +3775,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -3671,10 +3789,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover22_huea77b3c7969d502c1a77f70677bac10b_240096_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover22_huea77b3c7969d502c1a77f70677bac10b_240096_400x400_fit_q90_lanczos.jpeg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover22.jpeg"
+                alt="Cover22.jpeg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover22_huea77b3c7969d502c1a77f70677bac10b_240096_400x400_fit_q90_lanczos.jpeg'" />
             </a>
           
@@ -3716,7 +3834,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -3740,9 +3862,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -3752,10 +3876,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover23_hube661423e9aacd984d2eee187e765889_158890_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover23_hube661423e9aacd984d2eee187e765889_158890_400x400_fit_q90_lanczos.jpeg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover23.jpeg"
+                alt="Cover23.jpeg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover23_hube661423e9aacd984d2eee187e765889_158890_400x400_fit_q90_lanczos.jpeg'" />
             </a>
           
@@ -3797,7 +3921,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -3821,9 +3949,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -3833,10 +3963,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover24_hue6dc0a2ba6fa03fbf618aa3884326a39_296839_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover24_hue6dc0a2ba6fa03fbf618aa3884326a39_296839_400x400_fit_q90_lanczos.jpeg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover24.jpeg"
+                alt="Cover24.jpeg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover24_hue6dc0a2ba6fa03fbf618aa3884326a39_296839_400x400_fit_q90_lanczos.jpeg'" />
             </a>
           
@@ -3878,7 +4008,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -3902,9 +4036,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -3914,10 +4050,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover3_hua36ddef645179efb22d730442af8b7de_1194482_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover3_hua36ddef645179efb22d730442af8b7de_1194482_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover3.jpg"
+                alt="Cover3.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover3_hua36ddef645179efb22d730442af8b7de_1194482_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -3959,7 +4095,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -3983,9 +4123,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -3995,10 +4137,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover4_hu41386761d8e24f0c2335c8562c3e3f16_1147571_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover4_hu41386761d8e24f0c2335c8562c3e3f16_1147571_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover4.jpg"
+                alt="Cover4.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover4_hu41386761d8e24f0c2335c8562c3e3f16_1147571_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -4040,7 +4182,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -4064,9 +4210,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -4076,10 +4224,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover5_huda98b0190c6b8eba65348b2a0b60801c_948646_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover5_huda98b0190c6b8eba65348b2a0b60801c_948646_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover5.jpg"
+                alt="Cover5.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover5_huda98b0190c6b8eba65348b2a0b60801c_948646_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -4121,7 +4269,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -4145,9 +4297,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -4157,10 +4311,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover6_hubfeaf36b43872270b6ab6eb87ec3aa07_1082751_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/Cover6_hubfeaf36b43872270b6ab6eb87ec3aa07_1082751_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover6.png"
+                alt="Cover6.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover6_hubfeaf36b43872270b6ab6eb87ec3aa07_1082751_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -4202,7 +4356,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -4226,9 +4384,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -4238,10 +4398,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover7_hu6283ef97cf357d4030532889b81a5c94_969697_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover7_hu6283ef97cf357d4030532889b81a5c94_969697_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover7.jpg"
+                alt="Cover7.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover7_hu6283ef97cf357d4030532889b81a5c94_969697_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -4283,7 +4443,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -4307,9 +4471,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -4319,10 +4485,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover8_hu3164caff3090d066e00410aa5ad3b8a1_868635_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover8_hu3164caff3090d066e00410aa5ad3b8a1_868635_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover8.jpg"
+                alt="Cover8.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover8_hu3164caff3090d066e00410aa5ad3b8a1_868635_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -4364,7 +4530,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -4388,9 +4558,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -4400,10 +4572,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Cover9_hu159ab3851119695052b5c6127677b824_699108_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Cover9_hu159ab3851119695052b5c6127677b824_699108_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Cover9.jpg"
+                alt="Cover9.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Cover9_hu159ab3851119695052b5c6127677b824_699108_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -4445,7 +4617,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -4469,9 +4645,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -4481,10 +4659,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/Feminism1_hu1886dc706c74b249e24cb46fe4e20446_4870_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/Feminism1_hu1886dc706c74b249e24cb46fe4e20446_4870_400x400_fit_q90_lanczos.jpeg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/Feminism1.jpeg"
+                alt="Feminism1.jpeg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/Feminism1_hu1886dc706c74b249e24cb46fe4e20446_4870_400x400_fit_q90_lanczos.jpeg'" />
             </a>
           
@@ -4526,7 +4704,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -4550,9 +4732,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -4562,10 +4746,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/dopamine1_hu37bb519fd0ab6742570ccb25426161a7_314516_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/dopamine1_hu37bb519fd0ab6742570ccb25426161a7_314516_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/dopamine1.png"
+                alt="dopamine1.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/dopamine1_hu37bb519fd0ab6742570ccb25426161a7_314516_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -4607,7 +4791,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -4631,9 +4819,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -4643,10 +4833,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/dopamine2_hu9663f1912f23d362c14dd3c885432c17_79415_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/dopamine2_hu9663f1912f23d362c14dd3c885432c17_79415_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/dopamine2.png"
+                alt="dopamine2.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/dopamine2_hu9663f1912f23d362c14dd3c885432c17_79415_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -4688,7 +4878,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -4712,9 +4906,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -4724,10 +4920,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/dopamine3_hu367f8ae25abe5a9709fd3753465e6571_64843_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/dopamine3_hu367f8ae25abe5a9709fd3753465e6571_64843_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/dopamine3.png"
+                alt="dopamine3.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/dopamine3_hu367f8ae25abe5a9709fd3753465e6571_64843_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -4769,7 +4965,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -4793,9 +4993,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -4805,10 +5007,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/eudaimonia1_hue352ad11af0cc24c64ef983f584871c6_195527_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/eudaimonia1_hue352ad11af0cc24c64ef983f584871c6_195527_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/eudaimonia1.jpg"
+                alt="eudaimonia1.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/eudaimonia1_hue352ad11af0cc24c64ef983f584871c6_195527_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -4850,7 +5052,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -4874,9 +5080,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -4886,10 +5094,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/eudaimonia2_hu7187d57ea983ec02222b86c24d5c506d_140734_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/eudaimonia2_hu7187d57ea983ec02222b86c24d5c506d_140734_400x400_fit_q90_lanczos.jpeg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/eudaimonia2.jpeg"
+                alt="eudaimonia2.jpeg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/eudaimonia2_hu7187d57ea983ec02222b86c24d5c506d_140734_400x400_fit_q90_lanczos.jpeg'" />
             </a>
           
@@ -4931,7 +5139,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -4955,9 +5167,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -4967,10 +5181,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/factfulness1_huc372ca74317d3eaf6a74453125b8ddf3_148735_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/factfulness1_huc372ca74317d3eaf6a74453125b8ddf3_148735_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/factfulness1.png"
+                alt="factfulness1.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/factfulness1_huc372ca74317d3eaf6a74453125b8ddf3_148735_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -5012,7 +5226,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -5036,9 +5254,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -5048,10 +5268,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/factfulness2_hu6706075531d72fb0ad647f932fc81a1b_72007_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/factfulness2_hu6706075531d72fb0ad647f932fc81a1b_72007_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/factfulness2.png"
+                alt="factfulness2.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/factfulness2_hu6706075531d72fb0ad647f932fc81a1b_72007_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -5093,7 +5313,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -5117,9 +5341,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -5129,10 +5355,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/factfulness3_hua1384379a504e8c7d007bd61f18fa113_42072_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/factfulness3_hua1384379a504e8c7d007bd61f18fa113_42072_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/factfulness3.png"
+                alt="factfulness3.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/factfulness3_hua1384379a504e8c7d007bd61f18fa113_42072_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -5174,7 +5400,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -5198,9 +5428,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -5210,10 +5442,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/factfulness4_hu94a2105a0cbb479c4f01007c18da5db3_620752_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/factfulness4_hu94a2105a0cbb479c4f01007c18da5db3_620752_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/factfulness4.png"
+                alt="factfulness4.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/factfulness4_hu94a2105a0cbb479c4f01007c18da5db3_620752_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -5255,7 +5487,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -5279,9 +5515,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -5291,10 +5529,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/factfulness5_huaa3c77a1025acffe726e2f402dc7577a_643171_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/factfulness5_huaa3c77a1025acffe726e2f402dc7577a_643171_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/factfulness5.png"
+                alt="factfulness5.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/factfulness5_huaa3c77a1025acffe726e2f402dc7577a_643171_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -5336,7 +5574,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -5360,9 +5602,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -5372,10 +5616,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/factfulness6_hu3131809a50f55806b2798dce7ff4f055_620147_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/factfulness6_hu3131809a50f55806b2798dce7ff4f055_620147_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/factfulness6.png"
+                alt="factfulness6.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/factfulness6_hu3131809a50f55806b2798dce7ff4f055_620147_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -5417,7 +5661,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -5441,9 +5689,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -5453,10 +5703,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/factfulness7_hua599b47558786fbae0818ec4afff55d5_174112_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/factfulness7_hua599b47558786fbae0818ec4afff55d5_174112_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/factfulness7.jpg"
+                alt="factfulness7.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/factfulness7_hua599b47558786fbae0818ec4afff55d5_174112_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -5498,7 +5748,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -5522,9 +5776,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -5534,10 +5790,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/factfulness8_huf4dc49337cf7834b8a7103c04498f150_154000_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/factfulness8_huf4dc49337cf7834b8a7103c04498f150_154000_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/factfulness8.png"
+                alt="factfulness8.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/factfulness8_huf4dc49337cf7834b8a7103c04498f150_154000_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -5579,7 +5835,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -5603,9 +5863,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -5615,10 +5877,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/gene1_hua185ee3effd454cc35d579d591003370_384310_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/gene1_hua185ee3effd454cc35d579d591003370_384310_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/gene1.jpg"
+                alt="gene1.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/gene1_hua185ee3effd454cc35d579d591003370_384310_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -5660,7 +5922,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -5684,9 +5950,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -5696,10 +5964,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/gene2_hu1890717368c6cbe3608a70b5d246e0df_253697_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/gene2_hu1890717368c6cbe3608a70b5d246e0df_253697_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/gene2.png"
+                alt="gene2.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/gene2_hu1890717368c6cbe3608a70b5d246e0df_253697_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -5741,7 +6009,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -5765,9 +6037,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -5777,10 +6051,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/gene3_hu2670001d887deeeb0df925bacb1493aa_46034_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/gene3_hu2670001d887deeeb0df925bacb1493aa_46034_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/gene3.png"
+                alt="gene3.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/gene3_hu2670001d887deeeb0df925bacb1493aa_46034_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -5822,7 +6096,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -5846,9 +6124,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -5858,10 +6138,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/gods-making-primary_hu3be5354686f45bc421a19386f21b3b15_919319_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/gods-making-primary_hu3be5354686f45bc421a19386f21b3b15_919319_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/gods-making-primary.png"
+                alt="gods-making-primary.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/gods-making-primary_hu3be5354686f45bc421a19386f21b3b15_919319_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -5903,7 +6183,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -5927,9 +6211,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -5939,10 +6225,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/gods-making1_hubc45f7dc20a0db9de0db227ad07ff5dc_275921_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/gods-making1_hubc45f7dc20a0db9de0db227ad07ff5dc_275921_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/gods-making1.jpg"
+                alt="gods-making1.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/gods-making1_hubc45f7dc20a0db9de0db227ad07ff5dc_275921_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -5984,7 +6270,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -6008,9 +6298,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -6020,10 +6312,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/gods-making2_hubc45f7dc20a0db9de0db227ad07ff5dc_104015_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/gods-making2_hubc45f7dc20a0db9de0db227ad07ff5dc_104015_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/gods-making2.jpg"
+                alt="gods-making2.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/gods-making2_hubc45f7dc20a0db9de0db227ad07ff5dc_104015_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -6065,7 +6357,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -6089,9 +6385,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -6101,10 +6399,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/gods-making3_hu94b2f4aaeb8e75c063822b60a6c374cf_342887_400x400_fit_q90_h2_lanczos.webp"
+                src="/images/gallery/gods-making3_hu94b2f4aaeb8e75c063822b60a6c374cf_342887_400x400_fit_q90_lanczos.jpg"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/gods-making3.jpg"
+                alt="gods-making3.jpg"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/gods-making3_hu94b2f4aaeb8e75c063822b60a6c374cf_342887_400x400_fit_q90_lanczos.jpg'" />
             </a>
           
@@ -6146,7 +6444,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -6170,9 +6472,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -6182,10 +6486,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/hardest-decision1_hu36fbb6a1704b6952f2d11432a670c7db_101182_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/hardest-decision1_hu36fbb6a1704b6952f2d11432a670c7db_101182_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/hardest-decision1.png"
+                alt="hardest-decision1.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/hardest-decision1_hu36fbb6a1704b6952f2d11432a670c7db_101182_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -6227,7 +6531,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -6251,9 +6559,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -6263,10 +6573,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/hardest-decision2_hu6f0f55eaa5511bc850670ab4c675cc4e_112679_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/hardest-decision2_hu6f0f55eaa5511bc850670ab4c675cc4e_112679_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/hardest-decision2.png"
+                alt="hardest-decision2.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/hardest-decision2_hu6f0f55eaa5511bc850670ab4c675cc4e_112679_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -6308,7 +6618,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -6332,9 +6646,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -6344,10 +6660,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/history1_hu0b44c64683c8d741abf9da17719a54a6_36572_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/history1_hu0b44c64683c8d741abf9da17719a54a6_36572_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/history1.png"
+                alt="history1.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/history1_hu0b44c64683c8d741abf9da17719a54a6_36572_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -6389,7 +6705,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -6413,9 +6733,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -6425,10 +6747,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/history2_huca726dd9e82f8d45db8cbba476a8d03c_1058505_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/history2_huca726dd9e82f8d45db8cbba476a8d03c_1058505_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/history2.png"
+                alt="history2.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/history2_huca726dd9e82f8d45db8cbba476a8d03c_1058505_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -6470,7 +6792,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -6494,9 +6820,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -6506,10 +6834,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/history3_huce022f0e24a7cc80b413c86aadc14016_1298667_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/history3_huce022f0e24a7cc80b413c86aadc14016_1298667_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/history3.png"
+                alt="history3.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/history3_huce022f0e24a7cc80b413c86aadc14016_1298667_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -6551,7 +6879,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -6575,9 +6907,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -6587,10 +6921,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/meditation-habit-primary_hu9a88c2c0356172e61063c225b3cbd269_958474_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/meditation-habit-primary_hu9a88c2c0356172e61063c225b3cbd269_958474_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/meditation-habit-primary.png"
+                alt="meditation-habit-primary.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/meditation-habit-primary_hu9a88c2c0356172e61063c225b3cbd269_958474_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -6632,7 +6966,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -6656,9 +6994,11 @@ example.com (but not on Github, for example).</p>
 
   
 
-        
-        
 
+        
+        
+        
+        
 
         <div class="gallery-item">
           
@@ -6668,10 +7008,10 @@ example.com (but not on Github, for example).</p>
               class="glightbox">
               <img
                 loading="lazy"
-                src="/images/gallery/perosnal-money-managment1_hu6bf4e8f38b60a87fd4ee3577854b0b59_485808_400x400_fit_q90_h2_lanczos_3.webp"
+                src="/images/gallery/perosnal-money-managment1_hu6bf4e8f38b60a87fd4ee3577854b0b59_485808_400x400_fit_lanczos_3.png"
                 class="img"
                 style="margin: 0;"
-                alt="images/gallery/perosnal-money-managment1.png"
+                alt="perosnal-money-managment1.png"
                 onerror="this.onerror='null';this.src='\/images\/gallery\/perosnal-money-managment1_hu6bf4e8f38b60a87fd4ee3577854b0b59_485808_400x400_fit_lanczos_3.png'" />
             </a>
           
@@ -6747,7 +7087,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -6771,6 +7115,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -6784,10 +7131,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/01_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/01_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/01.jpg"
+                  alt="01.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/01_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -6830,7 +7177,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -6854,6 +7205,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -6867,10 +7221,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/02_hu9f5ce1c569e2ab213865609500b54bff_713428_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/02_hu9f5ce1c569e2ab213865609500b54bff_713428_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/02.jpg"
+                  alt="02.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/02_hu9f5ce1c569e2ab213865609500b54bff_713428_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -6913,7 +7267,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -6937,6 +7295,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -6950,10 +7311,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/03_huf5c9dfe5645852846ce99ad77e61d20e_259550_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/03_huf5c9dfe5645852846ce99ad77e61d20e_259550_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/03.jpg"
+                  alt="03.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/03_huf5c9dfe5645852846ce99ad77e61d20e_259550_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -6996,7 +7357,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -7020,6 +7385,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -7033,10 +7401,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/04_hua47f595a8863664e9d354ca6db7dfd57_59892_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/04_hua47f595a8863664e9d354ca6db7dfd57_59892_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/04.jpg"
+                  alt="04.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/04_hua47f595a8863664e9d354ca6db7dfd57_59892_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -7079,7 +7447,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -7103,6 +7475,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -7116,10 +7491,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/05_hue3c47dbec81aa52cd05166231080af9a_215325_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/05_hue3c47dbec81aa52cd05166231080af9a_215325_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/05.jpg"
+                  alt="05.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/05_hue3c47dbec81aa52cd05166231080af9a_215325_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -7162,7 +7537,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -7186,6 +7565,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -7199,10 +7581,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/06_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/06_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/06.jpg"
+                  alt="06.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/06_hu3cc0698070fd18165717cc5d118ae043_76179_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -7245,7 +7627,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -7269,6 +7655,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -7282,10 +7671,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/2019-primary_hu0f6c93fe07b0f7aaba15b9506206bb77_1096213_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/2019-primary_hu0f6c93fe07b0f7aaba15b9506206bb77_1096213_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/2019-primary.png"
+                  alt="2019-primary.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/2019-primary_hu0f6c93fe07b0f7aaba15b9506206bb77_1096213_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -7328,7 +7717,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -7352,6 +7745,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -7365,10 +7761,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/20191_hu002015509768674ed415582b529898f1_238252_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/20191_hu002015509768674ed415582b529898f1_238252_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/20191.jpg"
+                  alt="20191.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/20191_hu002015509768674ed415582b529898f1_238252_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -7411,7 +7807,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -7435,6 +7835,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -7448,10 +7851,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/20192_huecb00ecc86d0ea32b5204cb24bb7abc7_530637_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/20192_huecb00ecc86d0ea32b5204cb24bb7abc7_530637_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/20192.jpg"
+                  alt="20192.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/20192_huecb00ecc86d0ea32b5204cb24bb7abc7_530637_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -7494,7 +7897,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -7518,6 +7925,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -7531,10 +7941,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Bot1_huce13c442b7324e24fd7e24499a54b87e_40622_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/Bot1_huce13c442b7324e24fd7e24499a54b87e_40622_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Bot1.png"
+                  alt="Bot1.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Bot1_huce13c442b7324e24fd7e24499a54b87e_40622_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -7577,7 +7987,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -7601,6 +8015,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -7614,10 +8031,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Bot2_hua39f0349bf5b3cb34c786f2b514c7a22_22521_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/Bot2_hua39f0349bf5b3cb34c786f2b514c7a22_22521_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Bot2.png"
+                  alt="Bot2.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Bot2_hua39f0349bf5b3cb34c786f2b514c7a22_22521_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -7660,7 +8077,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -7684,6 +8105,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -7697,10 +8121,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover1_hu3aafc5bfe228a42a52d09b36b3ce1969_915967_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover1_hu3aafc5bfe228a42a52d09b36b3ce1969_915967_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover1.jpg"
+                  alt="Cover1.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover1_hu3aafc5bfe228a42a52d09b36b3ce1969_915967_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -7743,7 +8167,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -7767,6 +8195,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -7780,10 +8211,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover10_hu5243062a3ef961ec6f93861103a39ac0_672750_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover10_hu5243062a3ef961ec6f93861103a39ac0_672750_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover10.jpg"
+                  alt="Cover10.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover10_hu5243062a3ef961ec6f93861103a39ac0_672750_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -7826,7 +8257,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -7850,6 +8285,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -7863,10 +8301,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover11_hu482525b22de2f916eedc0632db15829a_223987_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover11_hu482525b22de2f916eedc0632db15829a_223987_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover11.jpg"
+                  alt="Cover11.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover11_hu482525b22de2f916eedc0632db15829a_223987_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -7909,7 +8347,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -7933,6 +8375,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -7946,10 +8391,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover12_hud737103c0c1cb782918495e38d13c4c6_1203159_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover12_hud737103c0c1cb782918495e38d13c4c6_1203159_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover12.jpg"
+                  alt="Cover12.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover12_hud737103c0c1cb782918495e38d13c4c6_1203159_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -7992,7 +8437,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -8016,6 +8465,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -8029,10 +8481,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover13_hu98b72c9cd998b3943d4fbeb8818b1712_962449_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover13_hu98b72c9cd998b3943d4fbeb8818b1712_962449_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover13.jpg"
+                  alt="Cover13.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover13_hu98b72c9cd998b3943d4fbeb8818b1712_962449_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -8075,7 +8527,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -8099,6 +8555,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -8112,10 +8571,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover14_hu19bd690dac4e894e240deee130dcd254_1089145_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover14_hu19bd690dac4e894e240deee130dcd254_1089145_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover14.jpg"
+                  alt="Cover14.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover14_hu19bd690dac4e894e240deee130dcd254_1089145_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -8158,7 +8617,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -8182,6 +8645,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -8195,10 +8661,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover15_hu22f9d168ca30399dc6fa5424424d421c_967416_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover15_hu22f9d168ca30399dc6fa5424424d421c_967416_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover15.jpg"
+                  alt="Cover15.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover15_hu22f9d168ca30399dc6fa5424424d421c_967416_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -8241,7 +8707,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -8265,6 +8735,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -8278,10 +8751,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover16_hu72edf17260b000cd806e1117c6376536_800433_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover16_hu72edf17260b000cd806e1117c6376536_800433_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover16.jpg"
+                  alt="Cover16.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover16_hu72edf17260b000cd806e1117c6376536_800433_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -8324,7 +8797,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -8348,6 +8825,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -8361,10 +8841,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover17_hu5094ca21fb6eb25ef623588c767e8f58_674723_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover17_hu5094ca21fb6eb25ef623588c767e8f58_674723_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover17.jpg"
+                  alt="Cover17.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover17_hu5094ca21fb6eb25ef623588c767e8f58_674723_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -8407,7 +8887,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -8431,6 +8915,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -8444,10 +8931,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover18_hu1392dd9f52c331d8d90a8b4dbc78659d_1060342_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover18_hu1392dd9f52c331d8d90a8b4dbc78659d_1060342_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover18.jpg"
+                  alt="Cover18.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover18_hu1392dd9f52c331d8d90a8b4dbc78659d_1060342_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -8490,7 +8977,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -8514,6 +9005,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -8527,10 +9021,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover19_hu667d820bd462239cb7bc754fb9251b9b_938641_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover19_hu667d820bd462239cb7bc754fb9251b9b_938641_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover19.jpg"
+                  alt="Cover19.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover19_hu667d820bd462239cb7bc754fb9251b9b_938641_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -8573,7 +9067,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -8597,6 +9095,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -8610,10 +9111,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover2_hu31c97f68f7fb35ae8a6b21332e96ecee_1098095_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover2_hu31c97f68f7fb35ae8a6b21332e96ecee_1098095_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover2.jpg"
+                  alt="Cover2.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover2_hu31c97f68f7fb35ae8a6b21332e96ecee_1098095_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -8656,7 +9157,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -8680,6 +9185,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -8693,10 +9201,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover20_hua50fc94d70d2fa23c682383323db7584_700736_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover20_hua50fc94d70d2fa23c682383323db7584_700736_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover20.jpg"
+                  alt="Cover20.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover20_hua50fc94d70d2fa23c682383323db7584_700736_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -8739,7 +9247,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -8763,6 +9275,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -8776,10 +9291,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover21_hu42f0e6f90e5deb17c991dd76d8437555_122965_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover21_hu42f0e6f90e5deb17c991dd76d8437555_122965_400x400_fit_q90_lanczos.jpeg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover21.jpeg"
+                  alt="Cover21.jpeg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover21_hu42f0e6f90e5deb17c991dd76d8437555_122965_400x400_fit_q90_lanczos.jpeg'" />
               </a>
             
@@ -8822,7 +9337,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -8846,6 +9365,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -8859,10 +9381,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover21_hu519a9b205738d164c7dd9354d3553035_598015_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover21_hu519a9b205738d164c7dd9354d3553035_598015_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover21.jpg"
+                  alt="Cover21.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover21_hu519a9b205738d164c7dd9354d3553035_598015_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -8905,7 +9427,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -8929,6 +9455,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -8942,10 +9471,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover22_huea77b3c7969d502c1a77f70677bac10b_240096_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover22_huea77b3c7969d502c1a77f70677bac10b_240096_400x400_fit_q90_lanczos.jpeg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover22.jpeg"
+                  alt="Cover22.jpeg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover22_huea77b3c7969d502c1a77f70677bac10b_240096_400x400_fit_q90_lanczos.jpeg'" />
               </a>
             
@@ -8988,7 +9517,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -9012,6 +9545,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -9025,10 +9561,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover23_hube661423e9aacd984d2eee187e765889_158890_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover23_hube661423e9aacd984d2eee187e765889_158890_400x400_fit_q90_lanczos.jpeg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover23.jpeg"
+                  alt="Cover23.jpeg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover23_hube661423e9aacd984d2eee187e765889_158890_400x400_fit_q90_lanczos.jpeg'" />
               </a>
             
@@ -9071,7 +9607,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -9095,6 +9635,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -9108,10 +9651,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover24_hue6dc0a2ba6fa03fbf618aa3884326a39_296839_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover24_hue6dc0a2ba6fa03fbf618aa3884326a39_296839_400x400_fit_q90_lanczos.jpeg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover24.jpeg"
+                  alt="Cover24.jpeg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover24_hue6dc0a2ba6fa03fbf618aa3884326a39_296839_400x400_fit_q90_lanczos.jpeg'" />
               </a>
             
@@ -9154,7 +9697,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -9178,6 +9725,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -9191,10 +9741,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover3_hua36ddef645179efb22d730442af8b7de_1194482_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover3_hua36ddef645179efb22d730442af8b7de_1194482_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover3.jpg"
+                  alt="Cover3.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover3_hua36ddef645179efb22d730442af8b7de_1194482_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -9237,7 +9787,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -9261,6 +9815,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -9274,10 +9831,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover4_hu41386761d8e24f0c2335c8562c3e3f16_1147571_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover4_hu41386761d8e24f0c2335c8562c3e3f16_1147571_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover4.jpg"
+                  alt="Cover4.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover4_hu41386761d8e24f0c2335c8562c3e3f16_1147571_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -9320,7 +9877,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -9344,6 +9905,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -9357,10 +9921,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover5_huda98b0190c6b8eba65348b2a0b60801c_948646_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover5_huda98b0190c6b8eba65348b2a0b60801c_948646_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover5.jpg"
+                  alt="Cover5.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover5_huda98b0190c6b8eba65348b2a0b60801c_948646_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -9403,7 +9967,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -9427,6 +9995,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -9440,10 +10011,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover6_hubfeaf36b43872270b6ab6eb87ec3aa07_1082751_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/Cover6_hubfeaf36b43872270b6ab6eb87ec3aa07_1082751_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover6.png"
+                  alt="Cover6.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover6_hubfeaf36b43872270b6ab6eb87ec3aa07_1082751_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -9486,7 +10057,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -9510,6 +10085,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -9523,10 +10101,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover7_hu6283ef97cf357d4030532889b81a5c94_969697_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover7_hu6283ef97cf357d4030532889b81a5c94_969697_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover7.jpg"
+                  alt="Cover7.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover7_hu6283ef97cf357d4030532889b81a5c94_969697_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -9569,7 +10147,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -9593,6 +10175,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -9606,10 +10191,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover8_hu3164caff3090d066e00410aa5ad3b8a1_868635_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover8_hu3164caff3090d066e00410aa5ad3b8a1_868635_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover8.jpg"
+                  alt="Cover8.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover8_hu3164caff3090d066e00410aa5ad3b8a1_868635_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -9652,7 +10237,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -9676,6 +10265,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -9689,10 +10281,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Cover9_hu159ab3851119695052b5c6127677b824_699108_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Cover9_hu159ab3851119695052b5c6127677b824_699108_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Cover9.jpg"
+                  alt="Cover9.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Cover9_hu159ab3851119695052b5c6127677b824_699108_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -9735,7 +10327,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -9759,6 +10355,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -9772,10 +10371,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/Feminism1_hu1886dc706c74b249e24cb46fe4e20446_4870_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/Feminism1_hu1886dc706c74b249e24cb46fe4e20446_4870_400x400_fit_q90_lanczos.jpeg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/Feminism1.jpeg"
+                  alt="Feminism1.jpeg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/Feminism1_hu1886dc706c74b249e24cb46fe4e20446_4870_400x400_fit_q90_lanczos.jpeg'" />
               </a>
             
@@ -9818,7 +10417,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -9842,6 +10445,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -9855,10 +10461,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/dopamine1_hu37bb519fd0ab6742570ccb25426161a7_314516_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/dopamine1_hu37bb519fd0ab6742570ccb25426161a7_314516_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/dopamine1.png"
+                  alt="dopamine1.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/dopamine1_hu37bb519fd0ab6742570ccb25426161a7_314516_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -9901,7 +10507,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -9925,6 +10535,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -9938,10 +10551,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/dopamine2_hu9663f1912f23d362c14dd3c885432c17_79415_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/dopamine2_hu9663f1912f23d362c14dd3c885432c17_79415_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/dopamine2.png"
+                  alt="dopamine2.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/dopamine2_hu9663f1912f23d362c14dd3c885432c17_79415_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -9984,7 +10597,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -10008,6 +10625,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -10021,10 +10641,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/dopamine3_hu367f8ae25abe5a9709fd3753465e6571_64843_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/dopamine3_hu367f8ae25abe5a9709fd3753465e6571_64843_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/dopamine3.png"
+                  alt="dopamine3.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/dopamine3_hu367f8ae25abe5a9709fd3753465e6571_64843_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -10067,7 +10687,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -10091,6 +10715,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -10104,10 +10731,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/eudaimonia1_hue352ad11af0cc24c64ef983f584871c6_195527_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/eudaimonia1_hue352ad11af0cc24c64ef983f584871c6_195527_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/eudaimonia1.jpg"
+                  alt="eudaimonia1.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/eudaimonia1_hue352ad11af0cc24c64ef983f584871c6_195527_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -10150,7 +10777,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -10174,6 +10805,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -10187,10 +10821,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/eudaimonia2_hu7187d57ea983ec02222b86c24d5c506d_140734_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/eudaimonia2_hu7187d57ea983ec02222b86c24d5c506d_140734_400x400_fit_q90_lanczos.jpeg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/eudaimonia2.jpeg"
+                  alt="eudaimonia2.jpeg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/eudaimonia2_hu7187d57ea983ec02222b86c24d5c506d_140734_400x400_fit_q90_lanczos.jpeg'" />
               </a>
             
@@ -10233,7 +10867,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -10257,6 +10895,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -10270,10 +10911,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/factfulness1_huc372ca74317d3eaf6a74453125b8ddf3_148735_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/factfulness1_huc372ca74317d3eaf6a74453125b8ddf3_148735_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/factfulness1.png"
+                  alt="factfulness1.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/factfulness1_huc372ca74317d3eaf6a74453125b8ddf3_148735_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -10316,7 +10957,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -10340,6 +10985,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -10353,10 +11001,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/factfulness2_hu6706075531d72fb0ad647f932fc81a1b_72007_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/factfulness2_hu6706075531d72fb0ad647f932fc81a1b_72007_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/factfulness2.png"
+                  alt="factfulness2.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/factfulness2_hu6706075531d72fb0ad647f932fc81a1b_72007_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -10399,7 +11047,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -10423,6 +11075,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -10436,10 +11091,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/factfulness3_hua1384379a504e8c7d007bd61f18fa113_42072_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/factfulness3_hua1384379a504e8c7d007bd61f18fa113_42072_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/factfulness3.png"
+                  alt="factfulness3.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/factfulness3_hua1384379a504e8c7d007bd61f18fa113_42072_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -10482,7 +11137,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -10506,6 +11165,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -10519,10 +11181,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/factfulness4_hu94a2105a0cbb479c4f01007c18da5db3_620752_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/factfulness4_hu94a2105a0cbb479c4f01007c18da5db3_620752_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/factfulness4.png"
+                  alt="factfulness4.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/factfulness4_hu94a2105a0cbb479c4f01007c18da5db3_620752_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -10565,7 +11227,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -10589,6 +11255,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -10602,10 +11271,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/factfulness5_huaa3c77a1025acffe726e2f402dc7577a_643171_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/factfulness5_huaa3c77a1025acffe726e2f402dc7577a_643171_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/factfulness5.png"
+                  alt="factfulness5.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/factfulness5_huaa3c77a1025acffe726e2f402dc7577a_643171_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -10648,7 +11317,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -10672,6 +11345,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -10685,10 +11361,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/factfulness6_hu3131809a50f55806b2798dce7ff4f055_620147_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/factfulness6_hu3131809a50f55806b2798dce7ff4f055_620147_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/factfulness6.png"
+                  alt="factfulness6.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/factfulness6_hu3131809a50f55806b2798dce7ff4f055_620147_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -10731,7 +11407,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -10755,6 +11435,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -10768,10 +11451,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/factfulness7_hua599b47558786fbae0818ec4afff55d5_174112_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/factfulness7_hua599b47558786fbae0818ec4afff55d5_174112_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/factfulness7.jpg"
+                  alt="factfulness7.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/factfulness7_hua599b47558786fbae0818ec4afff55d5_174112_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -10814,7 +11497,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -10838,6 +11525,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -10851,10 +11541,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/factfulness8_huf4dc49337cf7834b8a7103c04498f150_154000_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/factfulness8_huf4dc49337cf7834b8a7103c04498f150_154000_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/factfulness8.png"
+                  alt="factfulness8.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/factfulness8_huf4dc49337cf7834b8a7103c04498f150_154000_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -10897,7 +11587,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -10921,6 +11615,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -10934,10 +11631,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/gene1_hua185ee3effd454cc35d579d591003370_384310_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/gene1_hua185ee3effd454cc35d579d591003370_384310_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/gene1.jpg"
+                  alt="gene1.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/gene1_hua185ee3effd454cc35d579d591003370_384310_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -10980,7 +11677,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -11004,6 +11705,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -11017,10 +11721,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/gene2_hu1890717368c6cbe3608a70b5d246e0df_253697_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/gene2_hu1890717368c6cbe3608a70b5d246e0df_253697_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/gene2.png"
+                  alt="gene2.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/gene2_hu1890717368c6cbe3608a70b5d246e0df_253697_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -11063,7 +11767,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -11087,6 +11795,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -11100,10 +11811,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/gene3_hu2670001d887deeeb0df925bacb1493aa_46034_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/gene3_hu2670001d887deeeb0df925bacb1493aa_46034_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/gene3.png"
+                  alt="gene3.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/gene3_hu2670001d887deeeb0df925bacb1493aa_46034_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -11146,7 +11857,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -11170,6 +11885,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -11183,10 +11901,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/gods-making-primary_hu3be5354686f45bc421a19386f21b3b15_919319_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/gods-making-primary_hu3be5354686f45bc421a19386f21b3b15_919319_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/gods-making-primary.png"
+                  alt="gods-making-primary.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/gods-making-primary_hu3be5354686f45bc421a19386f21b3b15_919319_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -11229,7 +11947,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -11253,6 +11975,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -11266,10 +11991,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/gods-making1_hubc45f7dc20a0db9de0db227ad07ff5dc_275921_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/gods-making1_hubc45f7dc20a0db9de0db227ad07ff5dc_275921_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/gods-making1.jpg"
+                  alt="gods-making1.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/gods-making1_hubc45f7dc20a0db9de0db227ad07ff5dc_275921_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -11312,7 +12037,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -11336,6 +12065,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -11349,10 +12081,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/gods-making2_hubc45f7dc20a0db9de0db227ad07ff5dc_104015_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/gods-making2_hubc45f7dc20a0db9de0db227ad07ff5dc_104015_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/gods-making2.jpg"
+                  alt="gods-making2.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/gods-making2_hubc45f7dc20a0db9de0db227ad07ff5dc_104015_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -11395,7 +12127,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -11419,6 +12155,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -11432,10 +12171,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/gods-making3_hu94b2f4aaeb8e75c063822b60a6c374cf_342887_400x400_fit_q90_h2_lanczos.webp"
+                  src="/images/gallery/gods-making3_hu94b2f4aaeb8e75c063822b60a6c374cf_342887_400x400_fit_q90_lanczos.jpg"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/gods-making3.jpg"
+                  alt="gods-making3.jpg"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/gods-making3_hu94b2f4aaeb8e75c063822b60a6c374cf_342887_400x400_fit_q90_lanczos.jpg'" />
               </a>
             
@@ -11478,7 +12217,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -11502,6 +12245,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -11515,10 +12261,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/hardest-decision1_hu36fbb6a1704b6952f2d11432a670c7db_101182_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/hardest-decision1_hu36fbb6a1704b6952f2d11432a670c7db_101182_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/hardest-decision1.png"
+                  alt="hardest-decision1.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/hardest-decision1_hu36fbb6a1704b6952f2d11432a670c7db_101182_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -11561,7 +12307,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -11585,6 +12335,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -11598,10 +12351,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/hardest-decision2_hu6f0f55eaa5511bc850670ab4c675cc4e_112679_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/hardest-decision2_hu6f0f55eaa5511bc850670ab4c675cc4e_112679_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/hardest-decision2.png"
+                  alt="hardest-decision2.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/hardest-decision2_hu6f0f55eaa5511bc850670ab4c675cc4e_112679_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -11644,7 +12397,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -11668,6 +12425,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -11681,10 +12441,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/history1_hu0b44c64683c8d741abf9da17719a54a6_36572_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/history1_hu0b44c64683c8d741abf9da17719a54a6_36572_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/history1.png"
+                  alt="history1.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/history1_hu0b44c64683c8d741abf9da17719a54a6_36572_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -11727,7 +12487,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -11751,6 +12515,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -11764,10 +12531,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/history2_huca726dd9e82f8d45db8cbba476a8d03c_1058505_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/history2_huca726dd9e82f8d45db8cbba476a8d03c_1058505_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/history2.png"
+                  alt="history2.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/history2_huca726dd9e82f8d45db8cbba476a8d03c_1058505_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -11810,7 +12577,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -11834,6 +12605,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -11847,10 +12621,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/history3_huce022f0e24a7cc80b413c86aadc14016_1298667_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/history3_huce022f0e24a7cc80b413c86aadc14016_1298667_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/history3.png"
+                  alt="history3.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/history3_huce022f0e24a7cc80b413c86aadc14016_1298667_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -11893,7 +12667,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -11917,6 +12695,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -11930,10 +12711,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/meditation-habit-primary_hu9a88c2c0356172e61063c225b3cbd269_958474_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/meditation-habit-primary_hu9a88c2c0356172e61063c225b3cbd269_958474_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/meditation-habit-primary.png"
+                  alt="meditation-habit-primary.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/meditation-habit-primary_hu9a88c2c0356172e61063c225b3cbd269_958474_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -11976,7 +12757,11 @@ example.com (but not on Github, for example).</p>
 
     
     
-      
+    
+    
+    
+    
+    
     
 
 
@@ -12000,6 +12785,9 @@ example.com (but not on Github, for example).</p>
 
   
 
+
+          
+          
           
           
 
@@ -12013,10 +12801,10 @@ example.com (but not on Github, for example).</p>
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/gallery/perosnal-money-managment1_hu6bf4e8f38b60a87fd4ee3577854b0b59_485808_400x400_fit_q90_h2_lanczos_3.webp"
+                  src="/images/gallery/perosnal-money-managment1_hu6bf4e8f38b60a87fd4ee3577854b0b59_485808_400x400_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="images/gallery/perosnal-money-managment1.png"
+                  alt="perosnal-money-managment1.png"
                   onerror="this.onerror='null';this.src='\/images\/gallery\/perosnal-money-managment1_hu6bf4e8f38b60a87fd4ee3577854b0b59_485808_400x400_fit_lanczos_3.png'" />
               </a>
             
@@ -12285,16 +13073,16 @@ example.com (but not on Github, for example).</p>
 
 <script
   crossorigin="anonymous"
-  integrity="sha256-pVPMTKTzqUx&#43;FurJtoHMxG1aVlNoJ2mDJPHfcUcAOGA="
-  src="/js/script.min.a553cc4ca4f3a94c7e16eac9b681ccc46d5a56536827698324f1df7147003860.js"></script>
+  integrity="sha256-Ou56Q8VQcs2UjE3QPjxR9lQlCVulGhoTV/jYHvfs7sU="
+  src="/js/script.min.3aee7a43c55072cd948c4dd03e3c51f65425095ba51a1a1357f8d81ef7eceec5.js"></script>
 
 
 <script
   defer
   async
   crossorigin="anonymous"
-  integrity="sha256-B6xkgfh/Kvqv5KhwfzCl2bDxX83d75UmDJHTJqlOs3M="
-  src="/js/script-lazy.min.07ac6481f87f2afaafe4a8707f30a5d9b0f15fcdddef95260c91d326a94eb373.js"></script>
+  integrity="sha256-tswzyRZw6bEKqCXqbipBd4Gg/fr6WVjk&#43;rVnwMDDeyQ="
+  src="/js/script-lazy.min.b6cc33c91670e9b10aa825ea6e2a417781a0fdfafa5958e4fab567c0c0c37b24.js"></script>
 
 
 
