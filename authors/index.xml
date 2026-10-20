@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Authors on Yoda</title>
-    <link>/authors/</link>
-    <description>Recent content in Authors on Yoda</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Shubhankar Nath</title>
-      <link>/authors/shubhankar-nath/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/shubhankar-nath/</guid>
-      <description>I am passionate about writing and a 🤍 to make the 🌏 a bette place.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Authors on Yoda</title><link>https://shubhankar-nath.github.io/authors/</link><description>Recent content in Authors on Yoda</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://shubhankar-nath.github.io/authors/index.xml" rel="self" type="application/rss+xml"/><item><title>Shubhankar Nath</title><link>https://shubhankar-nath.github.io/authors/shubhankar-nath/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://shubhankar-nath.github.io/authors/shubhankar-nath/</guid><description>I am passionate about writing and a 🤍 to make the 🌏 a bette place.</description></item></channel></rss>
